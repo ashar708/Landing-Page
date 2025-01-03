@@ -1,0 +1,13 @@
+export {default as Navbar} from "./Navbar/Navbar";
+export {default as Insight} from "./Insights/insight";
+export {default as Brand} from "./Branding/Brand";
+export {default as Service} from "./Services/Service";
+export {default as Features} from "./Features/Features";
+export {default as Information} from "./Information/Information";
+export {default as Feature} from "./Feature/Feature";
+export {default as Designing} from "./Designing/Designing";
+export {default as Product} from "./Product/Product";
+export {default as Cards} from "./Cards/Cards";
+export {default as RedundantCards} from "./RedundantCards/RedundantCards";
+export {default as Footer} from "./Footer/Footer";
+export {default as FooterContent} from "./FooterContent/FooterContent";

@@ -1,0 +1,29 @@
+.landingpage__footercontent{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding-right: 5rem;
+
+}
+
+.landingpage__footercontent-content{
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1024px){
+    .landingpage__footercontent{
+        padding: 0;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width:320px){
+    .landingpage__footercontent{
+        margin-bottom: 4rem;
+    }
+    .landingpage__footercontent-content{
+        margin-left: 2rem;
+    }
+}

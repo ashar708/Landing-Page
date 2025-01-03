@@ -1,0 +1,88 @@
+.landingpage__brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+.landingpage__brand-client-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.landingpage__brand-client-container h1{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+.landingpage__brand-client-container p{
+    margin-top: 1rem;
+    font-family: sans-serif;
+}
+
+.landingpage__brand-logos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.landingpage__brand-logos img{
+    margin-left: 4.5rem;
+    margin-right: 5.5rem;
+    width: 30px;
+}
+
+@media screen and (max-width:1050px){
+    .landingpage__brand-logos img{
+        width: 28px;
+        margin-left: 3rem;
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (max-width:770px){
+    .landingpage__brand-logos img{
+        width: 25px;
+        margin-left: 1.5rem;
+        margin-right: 3.5rem;
+    }
+}
+
+@media screen and (max-width:550px){
+    .landingpage__brand-client-container p{
+        font-size: 15px;
+    }
+    .landingpage__brand-logos img{
+        width: 20px;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width:375px){
+    .landingpage__brand-client-container p{
+        font-size: 15px;
+    }
+    .landingpage__brand-logos img{
+        width: 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width:320px){
+    .landingpage__brand-client-container p{
+        font-size: 13px;
+    }
+    .landingpage__brand-logos img{
+        width: 20px;
+        margin-left: 1rem;
+        margin-right: 0.5rem;
+    }
+}

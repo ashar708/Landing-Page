@@ -1,0 +1,81 @@
+.landingpage__cards-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+.landingpage__cards-headings h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(77, 72, 72);
+}
+
+.landingpage__cards-headings p{
+    text-align: center;
+    font-family: sans-serif;
+    width: 550px;
+    margin-left: 23rem;
+    margin-top: 2rem;
+}
+
+.landingpage__card-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+@media screen and (max-width:1440px){
+    .landingpage__cards-headings p{
+        margin-left: 24rem;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .landingpage__cards-headings p{
+        margin-left: 22rem;
+        width: 340px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .landingpage__cards-headings p{
+        margin-left: 16rem;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .landingpage__cards-headings{
+        width: 120px;
+    }
+    .landingpage__cards-headings p{
+        margin-left: 6rem;
+        width: 250px;
+    }
+    .landingpage__cards-headings h1{
+        margin-left: 6rem;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .landingpage__cards-headings p{
+        margin-left: 4rem;
+    }
+    .landingpage__cards-headings h1{
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (max-width:320px){
+    .landingpage__cards-headings p{
+        margin-left: 2rem;
+    }
+    .landingpage__cards-headings h1{
+        margin-left: 2rem;
+    }
+}
